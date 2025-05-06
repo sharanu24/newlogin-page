@@ -29,7 +29,7 @@ const app = express();
 // ✅ Configure CORS to allow your frontend domain
 app.use(
   cors({
-    origin: 'https://armtonix.net', // replace with your frontend Render domain
+    origin: 'https://newlogin-page-frontend.onrender.com', // replace with your frontend Render domain
     credentials: true,
   })
 );
